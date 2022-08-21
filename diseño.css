@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&display=swap');
+html{
+    background-color: #352208;
+}
+*{
+    color: white;
+    
+}
+header{
+    width: 100%;
+    border: 5px solid white;
+}
+
+.name{
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 25px;
+}
+/*MENU DE NAVEGACION*/
+.menu{
+    display: inline-block;
+    position: relative;
+    left: 12%;
+}
+.menu_navegacion2{
+    width: 100%;
+    position: sticky;
+    top: 0;  
+    z-index: 100;
+    border: 5px solid blue;
+}
+.menu_navegacion li{
+    list-style: none;
+    display: inline-block;
+    
+}
+.menu_navegacion li a{
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.menu_navegacion li a{
+    display: inline-block;
+}
+nav a:hover{
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/* ASIDE (BARRA LATERAL) */
+aside{
+    width: 30%;
+    float: right;
+    position: relative;
+}
+.aside_nombre{
+    text-align: center;
+    padding: 15px;
+    border: 3px solid #E1BB80;
+    border-radius: 10px;
+}
+.aside_talleres{
+    padding: 15px;
+    border: 3px solid #E1BB80;
+    border-radius: 10px;
+}
+.luis{
+    border-radius: 5px;
+}
+.img_computador{
+    text-align: center;
+    padding: 15px;
+}
+
+/* CONTENIDO GENERAL */
+section{
+    clear: both;
+    border: 5px solid #E1BB80;
+    padding: 15px;
+    border-radius: 10px;
+    height: 1250px;
+}
+article{
+    width: 67%;
+}
+
+.title_1{
+    display: inline; 
+}
+section p{
+    text-align: justify;
+}
+
+/* CONTENIDO APTITUDES */
+.aptitudes{
+    width: 20%;
+    display: inline-block;
+}
+.habilidades{
+    width: 20%;
+    display: inline-block;
+}
+
+/* CONTENIDO PROYECTOS ACADEMICOS */
+.contenedor_proyectos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.proyectos .contenedor_proyectos p{
+    text-align: center;
+}
+.proyectos .contenedor_proyectos div{
+    padding: 8px;
+    text-align: center;
+}
+
+/* CONTENIDO LENGUAJES */
+.contenedor_lenguajes{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.contenedor_lenguajes div{
+    text-align: center;
+    padding: 8px;
+}
+.adobe{
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    border: 3px solid #E1BB80;
+    border-radius: 5px;
+}
+.contacto1{
+    padding: 8px;
+}
+.contacto2{
+    display: inline;
+    float: right;
+}
+footer div h3{
+    display: inline;
+}
+.contacto3{
+    padding: 8px;
+}
+.contacto3 a{
+    float: right;
+}
+
+/* ANINMACIONES */
+.contenedor_proyectos div img:hover{
+    cursor: pointer;
+    height: 160px;
+    width: 160px;
+    transition: 0.5s;
+}
+.contenedor_lenguajes div img:hover{
+    cursor: pointer;
+    height: 160px;
+    width: 160px;
+    transition: 0.5s;
+}
+    
